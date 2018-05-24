@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/namdv/devel/SIS/SISUserManagementService/src/crdhn/sis/configuration/Configuration.java</file>
+            <file>file:/home/namdv/devel/SIS/SISUserManagementService/src/crdhn/sis/transport/UserConnector.java</file>
+            <file>file:/home/namdv/devel/SIS/SISUserManagementService/src/crdhn/sis/model/ReportInfo.java</file>
+            <file>file:/home/namdv/devel/SIS/SISUserManagementService/src/crdhn/sis/controller/ReportController.java</file>
+            <file>file:/home/namdv/devel/SIS/SISUserManagementService/src/crdhn/sis/utils/ServletUtil.java</file>
+            <file>file:/home/namdv/devel/SIS/SISUserManagementService/src/crdhn/sis/utils/Utils.java</file>
+            <file>file:/home/namdv/devel/SIS/SISUserManagementService/src/crdhn/sis/controller/UserController.java</file>
+            <file>file:/home/namdv/devel/SIS/SISUserManagementService/src/crdhn/sis/server/ServiceDaemon.java</file>
+            <file>file:/home/namdv/devel/SIS/SISUserManagementService/test/test.java</file>
+            <file>file:/home/namdv/devel/SIS/SISUserManagementService/src/crdhn/sis/model/UserInfo.java</file>
+            <file>file:/home/namdv/devel/SIS/SISUserManagementService/src/crdhn/sis/configuration/Config.java</file>
+            <file>file:/home/namdv/devel/SIS/SISUserManagementService/src/crdhn/sis/transport/SISMongoDBConnectorClient.java</file>
+            <file>file:/home/namdv/devel/SIS/SISUserManagementService/src/crdhn/sis/utils/DataResponse.java</file>
+        </group>
+        <group name="DIP">
+            <file>file:/home/namdv/devel/SIS/SISUserManagementService/src/crdhn/sis/configuration/Configuration.java</file>
+            <file>file:/home/namdv/devel/SIS/SISUserManagementService/src/crdhn/sis/transport/UserConnector.java</file>
+            <file>file:/home/namdv/devel/SIS/SISUserManagementService/src/crdhn/sis/model/ReportInfo.java</file>
+            <file>file:/home/namdv/devel/SIS/SISUserManagementService/src/crdhn/sis/controller/ReportController.java</file>
+            <file>file:/home/namdv/devel/SIS/SISUserManagementService/src/crdhn/sis/utils/Utils.java</file>
+            <file>file:/home/namdv/devel/SIS/SISUserManagementService/src/crdhn/sis/controller/UserController.java</file>
+            <file>file:/home/namdv/devel/SIS/SISUserManagementService/src/crdhn/sis/transport/SISMongoDBConnectorClient.java</file>
+            <file>file:/home/namdv/devel/SIS/SISUserManagementService/conf/development.config.ini</file>
+            <file>file:/home/namdv/devel/SIS/SISUserManagementService/conf/production.config.ini</file>
+            <file>file:/home/namdv/devel/SIS/SISUserManagementService/src/crdhn/sis/server/ServiceDaemon.java</file>
+        </group>
+    </open-files>
+</project-private>

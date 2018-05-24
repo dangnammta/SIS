@@ -1,0 +1,9 @@
+syntax: glob
+*/bin/*
+*/build/*
+*/dist/*
+*.orig
+*/private/*
+.dep.inc
+*/*~*
+*~

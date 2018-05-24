@@ -1,0 +1,53 @@
+log4j:WARN No appenders could be found for logger (org.apache.commons.configuration.ConfigurationUtils).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+75 [Thread-1] INFO org.eclipse.jetty.util.log - Logging initialized @286ms
+114 [Thread-1] INFO firo.embeddedserver.jetty.EmbeddedJettyServer - == FIRO has ignited ...
+115 [Thread-1] INFO firo.embeddedserver.jetty.EmbeddedJettyServer - >> Listening on 127.0.0.1:1301
+116 [Thread-1] INFO org.eclipse.jetty.server.Server - jetty-9.3.6.v20151106
+148 [Thread-1] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@4e90976{HTTP/1.1,[http/1.1]}{127.0.0.1:1301}
+148 [Thread-1] INFO org.eclipse.jetty.server.Server - Started @360ms
+249 [main] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[10.86.222.16:28018], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='3000 ms', maxWaitQueueSize=500}
+MongoDBConnectorClient::addUseradmin
+280 [main] INFO org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 3000 ms before timing out
+401 [cluster-ClusterId{value='59366f4a6b55e20e2b8efbc9', description='null'}-10.86.222.16:28018] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:1}] to 10.86.222.16:28018
+428 [cluster-ClusterId{value='59366f4a6b55e20e2b8efbc9', description='null'}-10.86.222.16:28018] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=10.86.222.16:28018, type=SHARD_ROUTER, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 4]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=25504465}
+544 [main] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:2}] to 10.86.222.16:28018
+com.mongodb.MongoWriteException: E11000 duplicate key error collection: SIS_USERMANAGEMENT.SIS_USER_INFO index: _id_ dup key: { : "admin" }
+	at com.mongodb.MongoCollectionImpl.executeSingleWriteRequest(MongoCollectionImpl.java:558)
+	at com.mongodb.MongoCollectionImpl.insertOne(MongoCollectionImpl.java:317)
+	at com.mongodb.MongoCollectionImpl.insertOne(MongoCollectionImpl.java:307)
+	at crdhn.sis.transport.SISMongoDBConnectorClient.addUser(SISMongoDBConnectorClient.java:162)
+	at crdhn.sis.controller.UserController.lambda$insertAcountOrganization$5(UserController.java:156)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at crdhn.sis.controller.UserController.insertAcountOrganization(UserController.java:142)
+	at crdhn.sis.server.ServiceDaemon.main(ServiceDaemon.java:20)
+MongoDBConnectorClient::addUsernamdv
+com.mongodb.MongoWriteException: E11000 duplicate key error collection: SIS_USERMANAGEMENT.SIS_USER_INFO index: _id_ dup key: { : "namdv" }
+	at com.mongodb.MongoCollectionImpl.executeSingleWriteRequest(MongoCollectionImpl.java:558)
+	at com.mongodb.MongoCollectionImpl.insertOne(MongoCollectionImpl.java:317)
+	at com.mongodb.MongoCollectionImpl.insertOne(MongoCollectionImpl.java:307)
+	at crdhn.sis.transport.SISMongoDBConnectorClient.addUser(SISMongoDBConnectorClient.java:162)
+	at crdhn.sis.controller.UserController.lambda$insertAcountOrganization$5(UserController.java:156)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at crdhn.sis.controller.UserController.insertAcountOrganization(UserController.java:142)
+	at crdhn.sis.server.ServiceDaemon.main(ServiceDaemon.java:20)
+MongoDBConnectorClient::addUsernamdv7
+com.mongodb.MongoWriteException: E11000 duplicate key error collection: SIS_USERMANAGEMENT.SIS_USER_INFO index: _id_ dup key: { : "namdv7" }
+	at com.mongodb.MongoCollectionImpl.executeSingleWriteRequest(MongoCollectionImpl.java:558)
+	at com.mongodb.MongoCollectionImpl.insertOne(MongoCollectionImpl.java:317)
+	at com.mongodb.MongoCollectionImpl.insertOne(MongoCollectionImpl.java:307)
+	at crdhn.sis.transport.SISMongoDBConnectorClient.addUser(SISMongoDBConnectorClient.java:162)
+	at crdhn.sis.controller.UserController.lambda$insertAcountOrganization$5(UserController.java:156)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at crdhn.sis.controller.UserController.insertAcountOrganization(UserController.java:142)
+	at crdhn.sis.server.ServiceDaemon.main(ServiceDaemon.java:20)
+MongoDBConnectorClient::monitoringReportByOrganization organizationId=namdv
+ReportController.getDataMonitoring resp ={"error_code":0,"error_message":"Successful","data":{"InProcessing":1,"Moved":0,"Closed":0,"Received":0,"Cancelled":0,"Responsed":0,"Created":1}}
+237603648 [qtp2000404256-22] INFO firo.http.matching.MatcherFilter - The requested route [/getAddress] has not been mapped in Firo for Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8]

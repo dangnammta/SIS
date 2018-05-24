@@ -1,0 +1,42 @@
+#!/bin/sh
+#
+# Startup script for Main
+
+export SERNAME=FSPMorphiaEngineService
+export wd=.
+export INCLUDE=$wd/cmd/service.in.sh
+export JMXHOST=localhost
+export JMXPORT=1102
+export APPENV=production
+export XMS=512M
+pid_file=$wd/tmp/service.pid
+log_file=$wd/tmp/service.log
+
+case "$1" in
+    start)
+        # Main startup
+        echo -n "Starting $SERNAME "
+        $wd/cmd/service -p $pid_file > $log_file 2>&1
+        echo "OK"
+        ;;
+    stop)
+        # Main shutdown
+        echo -n "Shutdown $SERNAME "
+        kill `cat $pid_file`
+        echo "OK"
+        ;;
+    reload|restart)
+        $0 stop
+        $0 start
+        ;;
+    status)
+        ;;
+    *)
+        echo "Usage: `basename $0` start|stop|restart|reload"
+        exit 1
+esac
+
+exit 0
+
+# vi:ai sw=4 ts=4 tw=0 et
+

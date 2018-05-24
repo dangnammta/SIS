@@ -1,0 +1,2 @@
+log4j:WARN No such property [datePattern] in org.apache.log4j.RollingFileAppender.
+log4j:ERROR No syslog host is set for SyslogAppedender named "SYSLOG".

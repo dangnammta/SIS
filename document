@@ -1,0 +1,14 @@
+--run mongo on windown:
+C:\Program Files\MongoDB\Server\3.4>bin\mongod.exe --port 28018 --dbpath C:\mongodb\data\db --logpath C:\mongodb\data\log\mongodb.log
+
+-- run SISImageScalarService:
+D:\SIS\deploy\SISImageScalarService>java -jar --Dapppath=. --Dappenv=production SISImageScalarService.jar >service.log
+
+-- run SISUserManagerService:
+D:\SIS\deploy\SISUserManagerService>java -jar --Dapppath=. --Dappenv=production SISUserManagerService.jar >service.log
+
+--run nginx:
+cd C:\nginx-1.34
+start nginx
+nginx -s stop
+nginx -s reload

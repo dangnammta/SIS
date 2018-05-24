@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="DIP">
+            <file>file:/home/namdv/devel/SIS/SISImageScalerService/src/crdhn/sis/imagescaler/ImageQueue.java</file>
+            <file>file:/home/namdv/devel/SIS/SISImageScalerService/src/crdhn/sis/configuration/ConfigHelper.java</file>
+            <file>file:/home/namdv/devel/SIS/SISImageScalerService/src/crdhn/sis/http/service/ServiceDaemon.java</file>
+            <file>file:/home/namdv/devel/SIS/SISImageScalerService/src/crdhn/sis/http/service/WebServer.java</file>
+            <file>file:/home/namdv/devel/SIS/SISImageScalerService/src/crdhn/sis/imagescaler/ImageWorker.java</file>
+            <file>file:/home/namdv/devel/SIS/SISImageScalerService/test/upload.html</file>
+            <file>file:/home/namdv/devel/SIS/SISImageScalerService/src/crdhn/sis/configuration/Configuration.java</file>
+            <file>file:/home/namdv/devel/SIS/SISImageScalerService/conf/development.config.ini</file>
+            <file>file:/home/namdv/devel/SIS/SISImageScalerService/src/crdhn/sis/http/servlet/UploadImageController.java</file>
+            <file>file:/home/namdv/devel/SIS/SISImageScalerService/conf/production.config.ini</file>
+            <file>file:/home/namdv/devel/SIS/SISImageScalerService/src/crdhn/sis/imagescaler/ImageInfo.java</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,1 @@
+../../FLogService/thrift/flogservice.thrift
